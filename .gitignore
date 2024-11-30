@@ -1,0 +1,32 @@
+#.gitignore
+# Ignore the virtual environment folder
+myenv/
+env/
+
+# Ignore Python cache files
+_pycache_/
+*.py[cod]
+*.pyo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore configuration files and secrets
+.env
+
+# Ignore Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Ignore compiled Python files
+*.pyc
